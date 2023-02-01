@@ -1,0 +1,7 @@
+
+   - name: install dotnet
+     ansible.builtin.apt :
+       name: install dotnet-sdk-6.0 
+       update_cache: yes
+       state: present
+
